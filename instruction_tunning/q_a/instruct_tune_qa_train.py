@@ -5,6 +5,7 @@ Fine-tunning Meta-Llama-3.1-8B-Instruct-bnb-4bit, Phi-3.5-mini-instruct, Qwen2.5
 Note this is a modified version of the notebook by Unsloth AI. 
 The source code in https://github.com/unslothai/unsloth
 Modifications: Data processing and parameters changed
+Dataset from https://huggingface.co/datasets/allenai/qasper
 
 """
 
@@ -57,7 +58,7 @@ model = FastLanguageModel.get_peft_model(
 )
 
 
-#Dataset from https://huggingface.co/datasets/allenai/qasper
+
 dataset = load_dataset("allenai/qasper")
 import json
 from collections.abc import Iterable
