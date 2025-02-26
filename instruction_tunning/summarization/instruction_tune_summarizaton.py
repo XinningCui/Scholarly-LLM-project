@@ -101,9 +101,6 @@ arxiv_formatted_dataset_train = processing_of_the_data(train_dataset)
 arxiv_formated_dataset_val = processing_of_the_data(valid_dataset)
 arxiv_formated_dataset_test = processing_of_the_data(test_dataset)
 
-#print(f"Length of the formatted train dataset is {len(arxiv_formatted_dataset_train)}")
-#print(f"Length of the formatted validation dataset is {len(arxiv_formated_dataset_val)}")
-#print(f"Length of the formatted test dataset is {len(arxiv_formated_dataset_test)}")
 
 
 # Convert the list of dictionaries to a Hugging Face Dataset
